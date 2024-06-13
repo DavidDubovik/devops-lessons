@@ -1,0 +1,8 @@
+Basic Commands.png
+Command History.png
+Files and Folders.png
+How to build a path.png
+Manipulating files and folders.png
+main.py
+projects
+venv
