@@ -149,3 +149,12 @@
 # print(generate_random_list(1, 1, 1) ) # == [1]
 # print(generate_random_list(1, 3, 5))  # == [2, 3, 1, 1, 3]
 # print(generate_random_list(-1, 1, 3))  # == [0, 1, 1]
+# --------------------------------->
+# distance_light_years = 2.537 * 1_000_000
+# distance_km = distance_light_years * 9_461_000_000_000
+# speed_of_light_km_per_s = 300000
+
+# #  Write code here
+# time_in_seconds = distance_km // speed_of_light_km_per_s
+# time_in_years =  time_in_seconds / (60 * 60 * 24 * 365)
+# print(time_in_years)

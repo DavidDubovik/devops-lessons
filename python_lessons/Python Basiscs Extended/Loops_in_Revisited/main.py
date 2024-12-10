@@ -142,14 +142,62 @@
 # print(get_years(1600, 10, 2000))  # == 2
 # print(get_years(500, 3, 550))  # == 3
 # %%
-def detect_lowercase_words() -> None:
-    # write your code here
-    while True:
-        text = input()
-        if text == "exit":
-            break
-        if text.islower():
-            print(f"{text} detected")
+# def detect_lowercase_words() -> None:
+#     # write your code here
+#     while True:
+#         text = input()
+#         if text == "exit":
+#             break
+#         if text.islower():
+#             print(f"{text} detected")
+#
+#
+# detect_lowercase_words()
+# ------------------------------------------------------->
+# def seating_arrangement(rows, seats_per_row):
+#     arrangement = []
+#     for row in range(1, rows + 1):
+#         seats = [f"Seat {seat}" for seat in range(1, seats_per_row + 1)]
+#         row_str = f"Row {row}: " + ", ".join(seats)
+#         arrangement.append(row_str)
+#     return arrangement
+#
+# # Приклад використання
+# print(seating_arrangement(3, 0))
+# #     "Row 1: Seat 1, Seat 2, Seat 3, Seat 4",
+# #     "Row 2: Seat 1, Seat 2, Seat 3, Seat 4",
+# #     "Row 3: Seat 1, Seat 2, Seat 3, Seat 4"
+# # ]
 
+# ------------------------------------------------------->
+# def check_emails_against_blacklist(emails: list[str], blacklist: set) -> str:
+#     #  Write code here
+#     for email in emails:
+#         if email in blacklist:
+#             return email
+#     return ""
+#
+#
+# emails = ["user@example.com", "spam@blacklist.com", "anotheruser@example.com"]
+# blacklist = {"spam@blacklist.com", "banneduser@example.com"}
+#
+# print(check_emails_against_blacklist(emails, blacklist))  # ["spam@blacklist.com"]
+# ------------------------------------------------------->
+# Базовий клас Human
+class Human:
+    pass
 
-detect_lowercase_words()
+# Підкласи Man та Woman
+class Man(Human):
+    pass
+
+class Woman(Human):
+    pass
+
+# Функція god, яка повертає список з об'єктами Адама і Єви
+def god():
+    return [Man(), Woman()]
+
+# Виклик функції та перевірка результату
+adam_and_eve = god()
+print(adam_and_eve)  # Виведе список з екземплярами Man і Woman
