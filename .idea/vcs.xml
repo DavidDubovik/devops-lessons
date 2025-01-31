@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Docker_Core/Containerizing_an_App/devops_todolist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Docker_Core/Docker_Compose/devops_todolist_docker_core_task_3_docker_compose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Docker_Core/Docker_Volumes/devops_todolist_docker_core_task_2_volumes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Classes/py-car-wash-station" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Exceptions_in_Details/py-lockdown-cafe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/FastAPI_Overview_and_FastAPI_in_Details/py-fastapi-city-temperature-management-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/FastAPI_Overview_and_FastAPI_in_Details/py-fastapi-library-management-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/File_Handling/py-copy-file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/File_Handling/py-create-file-every-second" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/File_Handling/py-create-file-from-input" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/File_Handling/py-move-file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/File_Handling/py-work-with-file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Functions_in_Details/py-cache-decorator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/How_to_Solve_GitHub_Tasks/py-count-occurrences" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/List_and_Dict_Comprehensions/py-linter-formatter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Modules_and_Imports/py-cinema-visit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Modules_and_Imports/py-knights-fighting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Mutable_Immutable_Types/py-mutable-immutable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing/py-cat-and-dog-years" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing/py-get-coin-combination" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing/py-is-isogram" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing/py-split-integer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing_in_details/py-can-access-google-page" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing_in_details/py-check-password" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing_in_details/py-cryptocurrency" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing_in_details/py-products-out-of-date" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Testing_in_details/py-restore-names" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Сlasses_in_Details/py-distance-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Сlasses_in_Details/py-online-course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Сlasses_in_Details/py-person-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_Core for_DevOps/Сlasses_in_Details/py-vector-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Backup_and_Restoration/rda_task_12_backup_database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Configuring_the_Database/rda_task_8_configure_database_server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Database_Design_Fundamentals/rda_task_1_create_database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Database_Design_Fundamentals/rda_task_2_create_indexes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Database_Design_Fundamentals/rda_task_3_transactions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Database_Internals/rda_task_7_database_engines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Monitoring_Database_Server/rda_task_10_monitor_error_log" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Monitoring_Database_Server/rda_task_11_monitor_slow_queries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Relational_Database_Administration/rda_task_4_database_normalization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Relational_Database_Administration/rda_task_5_stored_procedures" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Relational_Database_Administration/rda_task_6_create_users" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Relational_Database_Administration/Running_Database_Migrations/rda_task_9_running_database_migrations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devops_timenow-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_lessons/Git and Terminal/Git_Basics" vcs="Git" />
+  </component>
+</project>

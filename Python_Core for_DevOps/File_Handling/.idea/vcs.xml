@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-copy-file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-create-file-every-second" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-create-file-from-input" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-move-file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-work-with-file" vcs="Git" />
+  </component>
+</project>
