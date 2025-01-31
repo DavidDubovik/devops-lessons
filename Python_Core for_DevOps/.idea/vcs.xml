@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Classes/py-car-wash-station" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Exceptions_in_Details/py-lockdown-cafe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Functions_in_Details/py-cache-decorator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/How_to_Solve_GitHub_Tasks/py-count-occurrences" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/List_and_Dict_Comprehensions/py-linter-formatter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Modules_and_Imports/py-cinema-visit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Modules_and_Imports/py-knights-fighting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mutable_Immutable_Types/py-mutable-immutable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Сlasses_in_Details/py-distance-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Сlasses_in_Details/py-online-course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Сlasses_in_Details/py-person-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Сlasses_in_Details/py-vector-class" vcs="Git" />
+  </component>
+</project>

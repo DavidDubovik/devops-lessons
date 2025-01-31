@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-cat-and-dog-years" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-get-coin-combination" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-is-isogram" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-split-integer" vcs="Git" />
+  </component>
+</project>

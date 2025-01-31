@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rda_task_1_create_database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rda_task_2_create_indexes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rda_task_3_transactions" vcs="Git" />
+  </component>
+</project>

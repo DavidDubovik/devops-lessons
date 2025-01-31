@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-can-access-google-page" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-check-password" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-cryptocurrency" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-products-out-of-date" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/py-restore-names" vcs="Git" />
+  </component>
+</project>
