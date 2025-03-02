@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Docker_Core/Containerizing_an_App/devops_todolist" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Docker_Core/Docker_Compose/devops_todolist_docker_core_task_3_docker_compose" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Docker_Core/Docker_Volumes/devops_todolist_docker_core_task_2_volumes" vcs="Git" />
