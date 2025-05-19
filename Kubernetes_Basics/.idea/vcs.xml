@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Cluster_Networking_Ingress/devops_todolist_kubernetes_task_10_ingress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Configuration_Management/devops_todolist_kubernetes_task_7_configuration_management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Controllers_and_Deployments/devops_todolist_kubernetes_task_5_working_with_deployments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DeamonSets_and_Jobs/devops_todolist_kubernetes_task_6_working_with_deamonsets_and_jobs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Scheduling_in_Details/devops_todolist_kubernetes_task_11_controlling_scheduling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Storage_and_StatefulSets/devops_todolist_kubernetes_task_8_volumes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Storage_and_StatefulSets/devops_todolist_kubernetes_task_9_working_with_statefuset" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Working_With_Pods/devops_todolist_kubernetes_task_3_write_a_manifest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Working_With_Services/devops_todolist_kubernetes_task_4_adding_services" vcs="Git" />
+  </component>
+</project>

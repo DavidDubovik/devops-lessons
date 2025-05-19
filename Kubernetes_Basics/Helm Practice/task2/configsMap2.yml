@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: {{ .Chart.Name }}-config
+ namespace: {{ .Values.common.namespace }}
+data:
+
+ EXTERNAL_ENDPOINT: {{ .Values.kube2py.configs.external_endpoint | quote }}
+ ENVIRONMENT: {{ .Values.kube2py.configs.environment | quote }}
+ PORT: {{ .Values.kube2py.configs.port | quote }}
+ APP_ENV: {{ .Values.kube2py.configs.app_env | quote }}
+ {{- if eq .Values.kube2py.configs.environment "Production"}}
+ ENV_DETAILS: "Testing Helm"
+ {{- end }}
+ OTHER_CONFIGS: |-
+    {{- range .Values.kube2py.configs.OTHER_CONFIGS }}
+    - {{ . | title | quote }}
+    {{- end }}

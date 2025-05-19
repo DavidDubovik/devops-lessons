@@ -1,0 +1,46 @@
+common:
+ namespace: mateapp
+global:
+  ENVIRONMENT: "Development"
+
+mysql:
+  configs:
+    MYSQL_USER: "another_user"
+
+
+kube2py:
+ configs:
+  APP_ENV: "testing_helm"
+  EXTERNAL_ENDPOINT: "http://httpbin-api.mateapp.svc.cluster.local"
+  PORT: "“8080”"
+  ENV_DETAILS: "Testing Helm"
+  #  OTHER_CONFIGS:
+  #  - one
+  #  - two
+  #  - three
+ secrets:
+   password: MyStrongPassword
+   login: SuperUser
+   external_endpoint: http://httpbin-api.mateapp.svc.cluster.local
+   DB_CONNECTION: mysql+mysqlconnector://app_user:1234@mysql-0.mysql.mysql.svc.cluster.local/app_db
+
+
+ image:
+   name: kube2py
+   repository: ikulyk404/kube2py
+   version: 2.0.0
+ resources:
+   requests:
+      memory: "64Mi"
+      cpu: "30m"
+   limits:
+     memory: "64Mi"
+     cpu: "30m"
+ hpa:
+   enabled: false
+   minReplicas: 2
+   maxReplicas: 4
+   cpu:
+     averageUtilization: 70
+   memory:
+     averageUtilization: 70

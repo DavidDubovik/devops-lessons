@@ -1,0 +1,45 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+ name: hello-cronjob
+ namespace: mateapp
+spec:
+  # ┌───────────── minute (0 - 59)
+  # │ ┌───────────── hour (0 - 23)
+  # │ │ ┌───────────── day of the month (1 - 31)
+  # │ │ │ ┌───────────── month (1 - 12)
+  # │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday)
+  # │ │ │ │ │                          OR sun, mon, tue, wed, thu, fri, sat
+  # │ │ │ │ │
+  # │ │ │ │ │
+  # * * * * * Більше про Cron-нотацію читай у папці img
+  schedule: "*/1 * * * *"
+#  Додамо поле concurrencyPolicy, яке визначає поведінку CronJob, якщо попередня ще не закінчила виконання. Тут є три можливих значення:
+#
+#  Allow — дозволяє задачам виконуватись паралельно;
+#  Forbid — не дозволяє запуск нової CronJob, поки попередня не завершиться;
+#  Replace — зупиняє запущену CronJob і запускає нову.
+  concurrencyPolicy: Replace
+  startingDeadlineSeconds: 100
+#  І останні два поля — це successfulJobsHistoryLimit і
+#  failedJobsHistoryLimit, які дозволяють керувати кількістю
+#  збережених журналів виконання для успішних і невдалих задач.
+#  Вказавши ці ліміти, можна контролювати історію виконання,
+#  яка зберігається в кластері.
+#  Ці поля допомагають уникнути зайвого накопичення даних про старі задачі:
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: hello
+            image: busybox
+            command:
+            - /bin/sh
+            - -c
+            - date; echo Hello from Kubernetes cluster
+          restartPolicy: OnFailure
+
+

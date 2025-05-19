@@ -1,0 +1,53 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: kube2py
+  namespace: mateapp
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1 # максимальна кількість подів, які можуть бути недоступними під час процесу оновлення
+      maxSurge: 1 # максимальна кількість подів, яка може бути створена понад вказану кількість реплік
+
+  replicas: 2 # вказує на бажану кількість подів
+  selector:
+    matchLabels:
+      app: kube2py
+  template: # тут ми вказуємо шаблон пода на основі яких він буде створювати нові поди
+    metadata:
+      labels:
+        app: kube2py
+    spec:
+      containers:
+        - name: kube2py
+          resources:
+            requests:
+              memory: "64Mi" # Mi = мебібайт. 64 мебібайти це приблизно 67 мегабайтів. Ще приклад: 1Gi (гібібайт) це приблизно 1.07 гігабайти.
+              cpu: "30m" # CPU у Kubernetes вимірюється спеціальними одиницями — мілі-cpu. Один CPU є еквівалентом 1000 мілі-cpu.
+            limits:
+              memory: "64Mi"
+              cpu: "30m"
+          image: salo2452/kube2py:1.3.0
+          imagePullPolicy: Always
+          env:
+            - name: EXTERNAL_ENDPOINT
+              valueFrom:
+                secretKeyRef:
+                  name: app-secret
+                  key: external_endpoint
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 5
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 5
+
